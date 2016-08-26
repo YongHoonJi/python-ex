@@ -7,7 +7,7 @@ import os
 
 ''' input args from console '''
 ''''x=input("something:")'''
-'''print(x)'''
+'''print(x)'''  
 
 ''' file open '''
 ''' file object = open(file_name [, access_mode][, buffering]) '''
