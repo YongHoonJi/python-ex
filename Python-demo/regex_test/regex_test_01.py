@@ -73,4 +73,13 @@ else:
     
 ''' search and replace '''
 phone = '2004-959-559 # This is Phone Number' 
+num = re.sub(r'\s#.*$', '', phone)
+print('Phone num:', num)
+# Remove anything other than digits
+num = re.sub(r'\D', "", phone)
+print('Phone num:', num)
+
+text = "Python and Python is lang"
+matchedText = re.match(r'Python(?=!)', text, re.I)
+print(matchedText)
     
